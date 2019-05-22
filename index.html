@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="PSU - Tutoring Center">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<title>PSU Tutoring Center</title>
+		<link rel="icon" type="image/png" href="Images/psuIcon.png">
+		<style>
+			.navbar {
+				margin-bottom: 0;
+				background-color:#14406e;
+				z-index: 9999;
+				border: 0;
+				font-size: 12px !important;
+				line-height: 2 !important;
+				letter-spacing: 2px;
+				border-radius: 0;
+			}
+			.navbar li a, .navbar .navbar-brand {
+				color: #fff !important;
+			}
+			.navbar-nav li a:hover, .navbar-nav li.active a {
+				color: #1091b9 !important;
+				background-color: #fff !important;
+			}
+			.navbar-default .navbar-toggle {
+				border-color: transparent;
+				color: #fff !important;
+			}
+			.header {
+				background-color: #fff;
+				color: #1091b9;
+				font-family: "Times New Roman", Georgia, Serif;
+				padding: 25px 10px;
+			}
+			#image1{
+				margin-left:25px;
+				width:250px;
+				height:250px;
+				float:left;
+			}
+			.header h1{
+				margin-top:80px;
+				font-size: 50px
+			}
+			#white-earphone #white-phone #white-envelope #white-info-sign{
+				color: white;
+   
+			}
+			.PSUWebsite ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				
+			}
+			.PSUWebsite li {
+				float: left;
+			}
+			.PSUWebsite li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+			#hyperlink a:link, a:visited {
+				color: #fff;
+				padding: 14px 25px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+			}
+			#hyperlink a:hover{
+				color: #777;
+			}
+			.footer{
+				margin-bottom:0;
+			}
+			.logo-small {
+			  color: #1091b9;
+			  font-size: 50px;
+			}
+			@media screen and (max-width: 768px) {
+				.col-sm-4 {
+				  text-align: center;
+				  margin: 25px 0;
+				}
+			}
+			.offerSection h2{
+				color:#1091b9;
+				text-shadow: 1px 1px #1091b9;
+				style="font-family:'Comic Sans MS', 'Trebuchet MS Bold Italic','Arial'";
+			}
+			.HopingToAchieve h2{
+				color:#1091b9;
+				text-shadow: 1px 0px #1091b9;
+				style="font-family:'Trebuchet MS Bold Italic','Comic Sans MS','Arial'";
+			}
+			.bg-grey {
+				background-color: #f6f6f6;
+			}
+			.thumbnail {
+				padding: 0 0 15px 0;
+				border: none;
+				border-radius: 0;
+			}
+			.thumbnail img {
+				width: 100%;
+				height: 100%;
+				margin-bottom: 10px;
+			}
+			.wellSection{
+				font-family: "Marker Felt", "fantasy";
+				color:#8a6d3b;
+				text-align:center;
+				background: linear-gradient(#bf944c,#fcf8e3);
+			}
+			.PanelHeading{
+				text-align:center;
+				font-family: "Bradley Hand", "cursive";
+			}
+			.pageWidth{
+				width: 1489px; 
+				margin-left: auto; 
+				margin-right:auto; 
+				margin-top:0; 
+				margin-bottom:0;
+			}
+			.paragraphStyle{
+				color:#1091b9; 
+				font-family: 'Marker Felt', 'fantasy'; 
+				font-size:20px;
+			}
+	</style>
+	</head>	
+		
+	<body>
+		<div class="container-fluid">
+			<div class="header jumbotron">
+				<img id="image1" src="Images/tutoring-center-sign.png" alt="tutoring-center-sign">
+				<h1>Welcome to the PSU Online Tutoring System!</h1>
+				<p>The first ever effective way to sign for your tutoring classes at PSU.</p>
+			</div>
+		</div>
+		
+		<nav class="navbar navbar-default pageWidth">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+				<a class="navbar-brand" href="index.html">Tutoring Center</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="aboutus.html">About Us</a></li>
+						<li><a href="contact.php">Contact</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="signup.php" target="_blank"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+						<li><a href="login.php" target="_blank"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<br>
+		<div class="container-fluid">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="Images/Tutoring.jpg" alt="Tutoring" style="width:100%; height:400px;">
+					</div>
+					<div class="item">
+						<img src="Images/tutoringbenefit.gif" alt="Tutoring Benefit" style="width:100%;  height:400px;">
+					</div>
+					<div class="item">
+						<img src="Images/Benefits-of-Tutoring.jpg" alt="Benefits of Tutoring" style="width:100%;  height:400px;">
+					</div>
+				</div>
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		<br>
+		<!-- Container (Offering Section) -->
+		<div class="container-fluid text-center offerSection bg-grey pageWidth">
+			<h3 style="font-family:'Lucida bright', 'Utopia','Lucida Typewriter' ">What</h3>
+			<h2 >Tutoring Center</h2>
+			<h3 style="font-family:'Lucida bright', 'Utopia','Lucida Typewriter' ">Offers</h3>
+			<br>
+			<div class="row">
+				<div class="col-sm-6">
+					<span class="glyphicon glyphicon-tasks logo-small" onclick="display1()"></span>
+					<h4>COURSES</h4><br>
+					<p id="demo1" class="paragraphStyle"></p>
+					<script>
+						function display1(){
+							document.getElementById("demo1").innerHTML = "A wide range of courses<br>"
+																		+ "from which students can choose."; 
+						}
+					</script>
+				</div>
+				<div class="col-sm-6">
+					<span class="glyphicon glyphicon-user logo-small" onclick="display2()"></span>
+					<h4>TUTORS</h4><br>
+					<p id="demo2" class="paragraphStyle"></p>
+					<script>
+						function display2(){
+							document.getElementById("demo2").innerHTML = "Our tutors are known to provide quality knowledge"
+																	   + "<br>to students in order to achieve amazing results."; 
+						}
+					</script>
+				</div>
+			</div>
+			<br><br>
+			<div class="row">
+				<div class="col-sm-6">
+					<span class="glyphicon glyphicon-time logo-small" onclick="display3()"></span>
+					<h4>FLEXIBLE TIME</h4><br>
+					<p id="demo3" class="paragraphStyle"></p>
+					<script>
+						function display3(){
+							document.getElementById("demo3").innerHTML = "Time will not be an issue anymore!<br>"
+																	  + "We provide flexible time to our users<br>"
+																	  + "to spend their time productively"; 
+						}
+					</script>
+				</div>
+				<div class="col-sm-6">
+					<span class="glyphicon glyphicon-list-alt logo-small" onclick="display4()"></span>
+					<h4>SUPPORTIVE FEEDBACK</h4><br>
+					<p id="demo4" class="paragraphStyle"></p>
+					<script>
+						function display4(){
+							document.getElementById("demo4").innerHTML = "In order to help students with their academics,<br>"
+																		+ "we provide excellent feedback<br>"
+																		+ "to satisfy our students' needs."; 
+						}
+					</script>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="container">
+		   <div class="well well-sm wellSection">
+			  <h2>HOW DOES TUTORING HELP STUDENTS?</h2>
+		   </div>
+		   <div class="row">
+			  <div class="col-sm-4">
+				 <div class="panel panel-warning">
+					<div class="panel-heading PanelHeading">
+					   <h4>Individual and unique learning experience</h4>
+					</div>
+					<div class="panel-body"><img src="https://cdn-images-1.medium.com/max/2000/1*P8ZAJLvJ7IahjN28FmQDhg.png" class="img-responsive" style="width:100%" alt="Image"></div>
+				 </div>
+			  </div>
+			  <div class="col-sm-4">
+				 <div class="panel panel-warning">
+					<div class="panel-heading PanelHeading">
+					   <h4>Improves academic performance</h4>
+					</div>
+					<div class="panel-body"><img src="http://upxacademy.com/wp-content/uploads/2017/07/ML_top10interviewQuestions-04.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+				 </div>
+			  </div>
+			  <div class="col-sm-4">
+				 <div class="panel panel-warning">
+					<div class="panel-heading PanelHeading">
+					   <h4>Encourages independence and responsibility</h4>
+					</div>
+					<div class="panel-body"><img src="http://upxacademy.com/wp-content/uploads/2017/06/machine_learning-skills-01.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+				 </div>
+			  </div>
+		   </div>
+		</div>
+		<br>
+		<!-- Container (HopingToAchieve Section) -->
+		<div class="container-fluid text-center bg-grey HopingToAchieve">
+			<h2>What Tutoring Center want to achieve</h2>
+			<div class="row text-center">
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="Images/collaborativeLearning.jpg" alt="Collaborative Learning" width="400" height="300">
+						<p>Help students understand and learn<br>
+						the subject matter of an academic course</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="Images/Educacion.jpg" alt="Educacion" width="400" height="300">
+						<br>
+						<p>Assist students to become independent and active learners</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="Images/Learning.jpg" alt="Learning" width="400" height="300">
+						<p>Help students achieve their academic goals<br>
+						and enhance thier skills and creativity</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="container-fluid">
+			<div class=" footer jumbotron" style="background-color:#1c1c1c; color:white; heigth:80px">
+				<div class="PSUWebsite" style="float:left; margin-right:70px;">
+					<p>P.O.Box No. 66833 Rafha Street,<br> Riyadh 11586 Saudi Arabia</p>
+					<span id="white-earphone" class="glyphicon glyphicon-earphone">00966114948000</span><br>
+					<span id="white-phone" class="glyphicon glyphicon-phone">00966114548317</span>
+					<ul>
+						<li><a href="https://www.youtube.com/user/PSUofficial" target="_blank">
+							<img src="Images/youTube.PNG" alt="YouTube Icon" class="img-responsive"></a>
+						</li>
+						<li><a target="_blank" href="http://www.psu.edu.sa/_layouts/15/PSU/Custom/ParentRegisteration/Login.aspx?ReturnUrl=%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F%255Flayouts%252F15%252Ffeed%252Easpx%253Fxsl%253D1%2526web%253D%25252FMediaCenter%25252FNews%2526page%253D3400560f%252D44f4%252D4e87%252Dba2c%252De3719370ed8a%2526wp%253D0f46fcd1%252D382e%252D43c3%252Da223%252D0953a66fad82%2526pageurl%253D%25252FMediaCenter%25252FNews%25252FPages%25252Fdefault%25252Easpx&Source=%2F_layouts%2F15%2Ffeed%2Easpx%3Fxsl%3D1%26web%3D%252FMediaCenter%252FNews%26page%3D3400560f-44f4-4e87-ba2c-e3719370ed8a%26wp%3D0f46fcd1-382e-43c3-a223-0953a66fad82%26pageurl%3D%252FMediaCenter%252FNews%252FPages%252Fdefault%252Easpx">
+							<img src="Images/wifi.png" alt="Wifi Icon" class="img-responsive"></a>
+						</li>
+						<li><a href="https://www.facebook.com/PrinceSultanUniversity/" target="_blank">
+							<img src="Images/facebook.png" alt="Facaebook Icon" class="img-responsive"></a>
+						</li>
+						<li><a href="https://www.linkedin.com/company/prince-sultan-university" target="_blank">
+							<img src="Images/linkedin.png" alt="Linked In" class="img-responsive"></a>
+						</li>		
+						<li><a href="https://twitter.com/PSU_RUH" target="_blank">
+							<img src="Images/twitter.png" alt="Twitter Icon" class="img-responsive"></a>
+						</li>
+						<li><a href="https://www.instagram.com/psu_ruh/" target="_blank">
+							<img src="Images/instagram.png" alt="Instagram Icon" class="img-responsive"></a>
+						</li>						
+					</ul>
+				</div>
+				<div ><img src="Images/psublacklogo.png" alt="PSU Black Logo" ></div>
+				<div id="hyperlink" style="margin:0 auto; float:right;">
+					<span id="white-info-sign" class="glyphicon glyphicon-info-sign"><a href="aboutus.html" target="_blank">About Us</a></span>
+					<span id=" white-envelope" class="glyphicon glyphicon-envelope"><a href="contact.php" target="_blank">Contact</a></span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+
